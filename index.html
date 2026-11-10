@@ -1,0 +1,803 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Jhernwin E. Flora - Data Analyst specializing in SQL, Power BI, Excel, and quantitative data analysis.">
+  <meta name="author" content="Jhernwin E. Flora">
+  <title>Jhernwin E. Flora | Data Analyst Portfolio</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <header class="navbar-container">
+    <nav class="navbar">
+      <a href="#home" class="logo">
+        <span class="logo-accent">&lt;</span>Jhernwin.Data<span class="logo-accent">/&gt;</span>
+      </a>
+      <ul class="nav-menu" id="nav-menu">
+        <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+        <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+        <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+        <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+        <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+        <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+        <li class="nav-item"><button class="nav-btn open-modal" data-modal="modal-resume"><i class="fa-solid fa-file-pdf"></i> Resume</button></li>
+      </ul>
+      <div class="hamburger" id="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero-section">
+      <div class="hero-grid">
+        <div class="hero-text">
+          <div class="badge"><i class="fa-solid fa-chart-line"></i>Junior Data Analyst</div>
+          <h1 class="hero-title">Hi, I'm <span class="highlight">Jhernwin E. Flora</span></h1>
+          <p class="hero-subtitle">
+            Transforming complex datasets into actionable business insights through structured SQL analysis and interactive Power BI dashboards.
+          </p>
+          <div class="hero-cta">
+            <button class="btn btn-primary open-modal" data-modal="modal-resume">
+              <i class="fa-solid fa-eye"></i> View Resume
+            </button>
+            <a href="#projects" class="btn btn-secondary"><i class="fa-solid fa-folder-open"></i> Projects</a>
+            <a href="#contact" class="btn btn-outline"><i class="fa-solid fa-paper-plane"></i> Contact</a>
+          </div>
+        </div>
+        <div class="hero-image-container">
+          <div class="image-wrapper">
+            <img src="assets/img/profile-placeholder.jfif" alt="Jhernwin E. Flora" class="profile-img">
+            <div class="glow-effect"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="section-header">
+        <h2 class="section-title">About Me</h2>
+        <div class="section-divider"></div>
+      </div>
+      <div class="about-container">
+        <div class="about-card">
+          <p>
+            I am a <strong>BS Mathematics graduate from Southern Luzon State University</strong> with a strong quantitative foundation and a deep commitment to pursuing a career in data analytics. Driven by a passion for solving practical business problems through data, I specialize in transforming raw, unstructured datasets into clear, actionable intelligence using <strong>SQL, Python, and interactive Power BI dashboards.</strong>
+          </p>
+          <p>
+            My mathematical background allows me to approach data with logical rigor—focusing on thorough data cleaning, exploratory analysis, and structural integrity. Whether analyzing retail retention trends, churn risk, or operational metrics, my goal is always the same: to turn complex data into compelling visual stories that help teams make smarter, data-driven decisions.
+          </p>
+          <div class="metrics-grid">
+            <div class="metric-card">
+              <span class="metric-number">BS Mathematics</span>
+              <span class="metric-label">Quantitative Background</span>
+            </div>
+            <div class="metric-card">
+              <span class="metric-number">Excel, SQL, Power BI and Python</span>
+              <span class="metric-label">Core Tech Stack</span>
+            </div>
+            <div class="metric-card">
+              <span class="metric-number">3+</span>
+              <span class="metric-label">End-to-End Projects</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="section-header">
+        <h2 class="section-title">Technical & Analytical Skills</h2>
+        <div class="section-divider"></div>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-category">
+          <div class="category-header">
+            <i class="fa-solid fa-magnifying-glass-chart category-icon"></i>
+            <h3>Data Analysis</h3>
+          </div>
+          <ul class="skill-list">
+            <li><i class="fa-solid fa-check check-icon"></i> Data Cleaning & Transformation</li>
+            <li><i class="fa-solid fa-check check-icon"></i> Exploratory Data Analysis (EDA)</li>
+            <li><i class="fa-solid fa-check check-icon"></i> Statistical Analysis</li>
+            <li><i class="fa-solid fa-check check-icon"></i> Data Visualization</li>
+            <li><i class="fa-solid fa-check check-icon"></i> Business Insights Generation</li>
+          </ul>
+        </div>
+
+        <div class="skill-category">
+          <div class="category-header">
+            <i class="fa-solid fa-code category-icon"></i>
+            <h3>Technical Tools</h3>
+          </div>
+          <ul class="skill-list">
+            <li><i class="fa-solid fa-database check-icon"></i> SQL (MySQL)</li>
+            <li><i class="fa-solid fa-chart-pie check-icon"></i> Microsoft Power BI (DAX, Dashboard, Power Query, Data Modeling)</li>
+            <li><i class="fa-solid fa-file-excel check-icon"></i> Microsoft Excel (Advanced Formulas, Pivots, Power Query, VLOOKUP, XLOOKUP)</li>
+            <li><i class="fa-brands fa-python check-icon"></i> Python (pandas, NumPy, Matplotlib)</li>
+          </ul>
+        </div>
+
+        <div class="skill-category">
+          <div class="category-header">
+            <i class="fa-solid fa-brain category-icon"></i>
+            <h3>Core Competencies</h3>
+          </div>
+          <ul class="skill-list">
+            <li><i class="fa-solid fa-check check-icon"></i> Data Interpretation</li>
+            <li><i class="fa-solid fa-check check-icon"></i> Problem-Solving & Analytical Logic</li>
+            <li><i class="fa-solid fa-check check-icon"></i> Critical Thinking</li>
+            <li><i class="fa-solid fa-check check-icon"></i> Analytical & Quantitative Research</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="section-header">
+        <h2 class="section-title">Featured Analytics Projects</h2>
+        <p class="section-subtitle">Real-world data cleaning, SQL querying, and interactive dashboard creation</p>
+        <div class="section-divider"></div>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-img-wrapper">
+            <img src="assets/img/retail_image.png" alt="Retail Sales Analysis Dashboard" class="project-img">
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Retail Sales Analysis</h3>
+            <p class="project-problem"><strong>Business Problem:</strong> Fragmented transactional records obscured monthly sales performance, product category profitability, and key customer purchasing behaviors.</p>
+            <div class="project-tags">
+              <span class="tag">SQL</span>
+              <span class="tag">Power BI</span>
+              <span class="tag">Data Cleaning</span>
+            </div>
+            <p class="project-highlights">Cleaned raw transactional data in MySQL and designed an interactive multi-page dashboard highlighting revenue metrics and order volume trends.</p>
+            <div class="project-actions">
+              <button class="btn btn-small btn-primary open-modal" data-modal="modal-retail">
+                <i class="fa-solid fa-circle-info"></i> View Details
+              </button>
+              <a href="https://github.com/jhernwinflora/Retail-Sales-Analysis" target="_blank" rel="noopener noreferrer" class="btn btn-small btn-outline">
+                <i class="fa-brands fa-github"></i> GitHub
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-img-wrapper">
+            <img src="assets/img/bank_churn_img.png" alt="Bank Customer Churn Analysis Dashboard" class="project-img">
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Bank Customer Churn Analysis</h3>
+            <p class="project-problem"><strong>Business Problem:</strong> Lack of visibility into customer attrition rates and demographic churn risk factors across active product tiers.</p>
+            <div class="project-tags">
+              <span class="tag">SQL</span>
+              <span class="tag">Power BI</span>
+              <span class="tag">Cohort Analysis</span>
+            </div>
+            <p class="project-highlights">Executed relational SQL queries to calculate baseline churn metrics and constructed dynamic churn risk visualizations in Power BI.</p>
+            <div class="project-actions">
+              <button class="btn btn-small btn-primary open-modal" data-modal="modal-churn">
+                <i class="fa-solid fa-circle-info"></i> View Details
+              </button>
+              <a href="https://github.com/jhernwinflora/Bank-Churn-Analysis" target="_blank" rel="noopener noreferrer" class="btn btn-small btn-outline">
+                <i class="fa-brands fa-github"></i> GitHub
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-img-wrapper">
+            <img src="assets/img/e_commerce_img.jpeg" alt="E-Commerce Performance Analysis Dashboard" class="project-img">
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">E-Commerce Performance Analysis</h3>
+            <p class="project-problem"><strong>Business Problem:</strong> E-commerce leadership needed targeted clarity on geographic order density, dynamic sales trends, and customer retention metrics.</p>
+            <div class="project-tags">
+              <span class="tag">MySQL</span>
+              <span class="tag">Power BI</span>
+              <span class="tag">DAX</span>
+            </div>
+            <p class="project-highlights">Built structured DAX measures and custom SQL views to evaluate monthly sales velocity, retention patterns, and category contribution margins.</p>
+            <div class="project-actions">
+              <button class="btn btn-small btn-primary open-modal" data-modal="modal-ecommerce">
+                <i class="fa-solid fa-circle-info"></i> View Details
+              </button>
+              <a href="https://github.com/jhernwinflora/E-Commerce-Analysis" target="_blank" rel="noopener noreferrer" class="btn btn-small btn-outline">
+                <i class="fa-brands fa-github"></i> GitHub
+              </a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="experience" class="section">
+      <div class="section-header">
+        <h2 class="section-title">Professional Background</h2>
+        <div class="section-divider"></div>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">Internship Experience</span>
+            <h3 class="timeline-role">Tax Mapping Intern</h3>
+            <h4 class="timeline-company">Provincial Assessor's Office — Quezon Province</h4>
+            <ul class="timeline-duties">
+              <li>Encoded and formatted Tax Map Control Roll (TMCR) records directly from AutoCAD spatial reference layouts into structured Excel datasets for municipal records.</li>
+              <li>Validated, processed, and updated approved property plans across multiple municipalities in Quezon Province.</li>
+              <li>Maintained, organized, and audited land asset databases to safeguard records accuracy and administrative accessibility.</li>
+              <li>Collaborated with department staff on systematic data entry, data cleaning, and record integrity tasks.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="section-header">
+        <h2 class="section-title">Get In Touch</h2>
+        <p class="section-subtitle">Interested in working together or reviewing my analytics work? Reach out directly!</p>
+        <div class="section-divider"></div>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <h3>Contact Details</h3>
+          <p>Feel free to connect with me via email or through my professional profiles.</p>
+          
+          <div class="contact-card">
+            <i class="fa-solid fa-envelope contact-icon"></i>
+            <div>
+              <h4>Email</h4>
+              <a href="mailto:jhernwinflora08@gmail.com" target="_blank">jhernwinflora08@gmail.com</a>
+            </div>
+          </div>
+
+          <div class="contact-card">
+            <i class="fa-brands fa-linkedin contact-icon"></i>
+            <div>
+              <h4>LinkedIn</h4>
+              <a href="https://www.linkedin.com/in/jhernwin-flora-8a972a3a7/" target="_blank" rel="noopener noreferrer">linkedin.com/in/jhernwin-flora</a>
+            </div>
+          </div>
+
+          <div class="contact-card">
+            <i class="fa-brands fa-github contact-icon"></i>
+            <div>
+              <h4>GitHub</h4>
+              <a href="https://github.com/jhernwinflora" target="_blank" rel="noopener noreferrer">github.com/jhernwinflora</a>
+            </div>
+          </div>
+        </div>
+
+        <form class="contact-form" action="https://formspree.io/f/xqppvjnd" method="POST" id="contactForm">
+            <div class="form-group">
+         <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" required placeholder="e.g. Jane Doe">
+          </div>
+          <div class="form-group">
+            <label for="email">Your Email</label>
+            <!-- name="_replyto" ensures clicking "Reply" in Gmail responds directly to the recruiter -->
+            <input type="email" id="email" name="_replyto" required placeholder="e.g. jane@company.com">
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="_subject" required placeholder="Data Analyst Position / Inquiry">
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required placeholder="Write your message here..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+          <div class="form-status" id="formStatus"></div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2026 Jhernwin E. Flora. Designed & Built for Data Analytics Excellence.</p>
+  </footer>
+
+  <!-- RESUME MODAL (POPUPS UP ON CLICK) -->
+  <div class="modal modal-large" id="modal-resume" role="dialog" aria-hidden="true">
+    <div class="modal-content modal-content-resume">
+      <button class="close-modal">&times;</button>
+      <div class="resume-modal-header">
+        <h2><i class="fa-solid fa-file-contract"></i> Jhernwin E. Flora — Resume</h2>
+        <a href="assets/docs/Jhernwin_Flora_Resume.pdf" download="Jhernwin_Flora_Resume.pdf" class="btn btn-small btn-primary">
+          <i class="fa-solid fa-download"></i> Download PDF
+        </a>
+      </div>
+      
+      <div class="modal-body resume-body">
+        <!-- Embedded PDF Viewer with fallback iframe and viewable preview -->
+        <div class="pdf-container">
+          <iframe src="assets/docs/resume.pdf" class="pdf-viewer" title="Jhernwin E. Flora Resume">
+            <p>Your browser does not support inline PDF viewing. <a href="assets/docs/Jhernwin_Flora_Resume.pdf" target="_blank">Click here to download the PDF</a>.</p>
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+
+ <!-- Modal 1: Retail Sales Analysis -->
+<div class="modal" id="modal-retail" role="dialog" aria-hidden="true">
+  <div class="modal-content" style="max-width: 950px; max-height: 90vh; overflow-y: auto;">
+    <button class="close-modal">&times;</button>
+    
+    <!-- Modal Header -->
+    <div style="border-bottom: 1px solid #334155; padding-bottom: 1.25rem; margin-bottom: 1.5rem;">
+      <h2 style="color: #38bdf8; font-size: 1.5rem; margin-bottom: 0.4rem;">Retail Sales Analysis (2023–2025)</h2>
+      <p style="color: #94a3b8; font-size: 0.9rem;">Project Case Study & Analytics Documentation</p>
+      
+      <!-- Tech Stack Badges -->
+      <div style="display: flex; gap: 0.5rem; margin-top: 1rem; flex-wrap: wrap;">
+        <span style="background: #0f172a; border: 1px solid #334155; color: #38bdf8; padding: 0.3rem 0.75rem; border-radius: 20px; font-size: 0.8rem; font-weight: 500;">📊 Excel (Raw Data)</span>
+        <span style="background: #0f172a; border: 1px solid #334155; color: #38bdf8; padding: 0.3rem 0.75rem; border-radius: 20px; font-size: 0.8rem; font-weight: 500;">🗄️ MySQL Workbench</span>
+        <span style="background: #0f172a; border: 1px solid #334155; color: #38bdf8; padding: 0.3rem 0.75rem; border-radius: 20px; font-size: 0.8rem; font-weight: 500;">📈 Power BI Desktop</span>
+      </div>
+    </div>
+
+    <div class="modal-body">
+      
+      <!-- KPI Summary Cards Grid -->
+      <section class="modal-section" style="margin-bottom: 2rem;">
+        <h3 style="color: #f8fafc; font-size: 1rem; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 1rem;">Core Key Performance Indicators (KPIs)</h3>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 1rem;">
+          <div style="background: #0f172a; border: 1px solid #334155; border-radius: 10px; padding: 1rem; text-align: center;">
+            <div style="font-size: 0.75rem; color: #94a3b8; text-transform: uppercase; margin-bottom: 0.3rem;">Total Revenue</div>
+            <div style="font-size: 1.25rem; font-weight: 700; color: #38bdf8;">$222.08M</div>
+            <div style="font-size: 0.7rem; color: #64748b; margin-top: 0.2rem;">2023–2025 Cumulative</div>
+          </div>
+          <div style="background: #0f172a; border: 1px solid #334155; border-radius: 10px; padding: 1rem; text-align: center;">
+            <div style="font-size: 0.75rem; color: #94a3b8; text-transform: uppercase; margin-bottom: 0.3rem;">Total Orders</div>
+            <div style="font-size: 1.25rem; font-weight: 700; color: #38bdf8;">20,000</div>
+            <div style="font-size: 0.7rem; color: #64748b; margin-top: 0.2rem;">3,985 Unique Clients</div>
+          </div>
+          <div style="background: #0f172a; border: 1px solid #334155; border-radius: 10px; padding: 1rem; text-align: center;">
+            <div style="font-size: 0.75rem; color: #94a3b8; text-transform: uppercase; margin-bottom: 0.3rem;">Units Sold</div>
+            <div style="font-size: 1.25rem; font-weight: 700; color: #38bdf8;">44,814</div>
+            <div style="font-size: 0.7rem; color: #64748b; margin-top: 0.2rem;">Across All Categories</div>
+          </div>
+          <div style="background: #0f172a; border: 1px solid #334155; border-radius: 10px; padding: 1rem; text-align: center;">
+            <div style="font-size: 0.75rem; color: #94a3b8; text-transform: uppercase; margin-bottom: 0.3rem;">Avg Order Value</div>
+            <div style="font-size: 1.25rem; font-weight: 700; color: #38bdf8;">$11.10K</div>
+            <div style="font-size: 0.7rem; color: #64748b; margin-top: 0.2rem;">$11,103.89 Exact AOV</div>
+          </div>
+          <div style="background: #0f172a; border: 1px solid #334155; border-radius: 10px; padding: 1rem; text-align: center;">
+            <div style="font-size: 0.75rem; color: #94a3b8; text-transform: uppercase; margin-bottom: 0.3rem;">Avg Selling Price</div>
+            <div style="font-size: 1.25rem; font-weight: 700; color: #38bdf8;">$4.96K</div>
+            <div style="font-size: 0.7rem; color: #64748b; margin-top: 0.2rem;">$4,955.55 Per Unit</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Overview & Business Problem -->
+      <section class="modal-section">
+        <h3>Overview & Business Problem</h3>
+        <p>Retail management required clear oversight of historical product sales trends, customer purchase frequencies, and revenue margins across various product lines. Uncleaned transactional records made executive decision-making difficult.</p>
+      </section>
+
+      <!-- Objectives -->
+      <section class="modal-section">
+        <h3>Objectives</h3>
+        <ul>
+          <li>Standardize and clean raw retail transaction tables using MySQL Workbench.</li>
+          <li>Identify top-performing product categories, regional drivers, and seasonal sales trends.</li>
+          <li>Build an interactive Power BI dashboard for executive reporting and time-series evaluation.</li>
+        </ul>
+      </section>
+
+      <!-- Dataset Description -->
+      <section class="modal-section">
+        <h3>Dataset Description</h3>
+        <p>Primary dataset: <code>retail_sales_data.csv</code>. Captures 20,000 unique orders across 3,985 unique customers from 2023 to 2025. Key fields include order metrics (order_id, order_date), customer profiling (customer_id, gender, age), regional dimensions (region, city), product catalog details (category, product), and financial records (unit_price, quantity, discount, sales, profit).</p>
+      </section>
+
+      <!-- Data Cleaning & SQL Analysis -->
+      <section class="modal-section">
+        <h3>Data Cleaning & SQL Workflows</h3>
+        <p>Utilized MySQL Workbench to resolve missing values, standardize date strings to ISO format, and write advanced aggregation and window queries:</p>
+        
+        <p style="margin-top: 0.75rem;"><strong>1. Date Standardization & Schema Alteration:</strong></p>
+        <pre><code class="language-sql">UPDATE sales_data
+SET order_date = STR_TO_DATE(order_date, "%m/%d/%Y");
+
+ALTER TABLE sales_data
+MODIFY COLUMN order_date DATE;</code></pre>
+
+        <p style="margin-top: 0.75rem;"><strong>2. Month-over-Month (MoM) Growth Analysis:</strong></p>
+        <pre><code class="language-sql">WITH year_month_sales AS (
+    SELECT
+        YEAR(order_date) AS year,
+        MONTH(order_date) AS month_num,
+        MONTHNAME(order_date) AS monthname,
+        SUM(sales) AS monthly_sales
+    FROM sales_data
+    GROUP BY year, month_num, monthname
+)
+SELECT
+    year, monthname, monthly_sales,
+    LAG(monthly_sales, 1) OVER(ORDER BY year ASC, month_num ASC) AS prev_monthly_sales,
+    ROUND((monthly_sales - LAG(monthly_sales, 1) OVER(ORDER BY year ASC, month_num ASC)) 
+    / LAG(monthly_sales, 1) OVER(ORDER BY year ASC, month_num ASC) * 100, 2) AS mom_growth_pct
+FROM year_month_sales
+ORDER BY year ASC, month_num ASC;</code></pre>
+      </section>
+
+      <!-- Power BI Dashboard -->
+      <section class="modal-section">
+  <h3>Power BI Dashboard Preview</h3>
+  <p>The dashboard tracks key regional performance metrics, monthly growth trends, and product category breakdowns.</p>
+  
+  <!-- Fully Responsive Dashboard Image (No Cropping) -->
+  <div style="margin: 1.25rem 0; text-align: center; width: 100%;">
+      <img src="assets/img/retail_sales_dashboard.png" alt="Retail Sales Dashboard Preview" style="width: 100%; height: auto; display: block; border-radius: 8px; border: 1px solid #334155;">
+  </div>
+</section>
+  
+      <!-- Key Findings -->
+       <section class="modal-section">
+        <h3>Key Findings</h3>
+      </section>
+      </section>
+        <ul>
+          <li><strong>Q4 Peak Sales:</strong> Revenue consistently peaked across October and November (reaching $10.64M in Nov 2025).</li>
+          <li><strong>Revenue vs. Volume Divergence:</strong> <em>Laptops</em> dominated total revenue ($130.72M) despite ranking #3 in volume, whereas <em>Wireless Earbuds</em> led in unit sales (2,606 units) but ranked #6 in total revenue.</li>
+          <li><strong>Category Concentration:</strong> <em>Electronics</em> generated $186.89M, significantly outperforming all other categories combined.</li>
+          <li><strong>Regional Performance:</strong> The <strong>South</strong> region led overall sales ($70.07M), while the <strong>East</strong> region lagged behind at $36.89M.</li>
+        </ul>
+      </section>
+
+      <!-- Business Recommendations -->
+      <section class="modal-section">
+        <h3>Business Recommendations</h3>
+        <ul>
+          <li>Optimize inventory buffer levels and marketing spend starting late Q3 (September) to capture peak Q4 demand surges.</li>
+          <li>Implement cross-selling bundles pairing top revenue drivers (Laptops) with high-volume accessories (Wireless Earbuds) to push AOV beyond $11.10K.</li>
+          <li>Re-evaluate carrying costs for lower-yielding categories like Books & Stationery ($2.77M) and Beauty ($3.83M).</li>
+        </ul>
+      </section>
+
+      <!-- Footer Action -->
+      <div class="modal-footer" style="margin-top: 2rem; padding-top: 1rem; border-top: 1px solid #334155; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem;">
+        <span style="font-size: 0.85rem; color: #94a3b8;">Author: Jhernwin E. Flora | BS Mathematics</span>
+        <a href="https://github.com/jhernwinflora/Retail-Sales-Analysis" target="_blank" rel="noopener noreferrer" class="btn btn-primary" style="display: inline-flex; align-items: center; gap: 0.5rem;">
+          <i class="fa-brands fa-github"></i> View GitHub Repository
+        </a>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+  <!-- Modal 2: Bank Churn Analysis -->
+<div class="modal" id="modal-churn" role="dialog" aria-hidden="true">
+  <div class="modal-content" style="max-width: 950px; max-height: 90vh; overflow-y: auto;">
+    <button class="close-modal">&times;</button>
+    
+    <!-- Modal Header -->
+    <div style="border-bottom: 1px solid #334155; padding-bottom: 1.25rem; margin-bottom: 1.5rem;">
+      <h2 style="color: #38bdf8; font-size: 1.5rem; margin-bottom: 0.4rem;">Bank Customer Churn Analysis & Predictive Insights</h2>
+      <p style="color: #94a3b8; font-size: 0.9rem;">End-to-End Data Analytics Case Study</p>
+      
+      <!-- Tech Stack Badges -->
+      <div style="display: flex; gap: 0.5rem; margin-top: 1rem; flex-wrap: wrap;">
+        <span style="background: #0f172a; border: 1px solid #334155; color: #38bdf8; padding: 0.3rem 0.75rem; border-radius: 20px; font-size: 0.8rem; font-weight: 500;">📊 Excel (Data Profiling)</span>
+        <span style="background: #0f172a; border: 1px solid #334155; color: #38bdf8; padding: 0.3rem 0.75rem; border-radius: 20px; font-size: 0.8rem; font-weight: 500;">🗄️ MySQL Workbench</span>
+        <span style="background: #0f172a; border: 1px solid #334155; color: #38bdf8; padding: 0.3rem 0.75rem; border-radius: 20px; font-size: 0.8rem; font-weight: 500;">📈 Power BI Desktop</span>
+      </div>
+    </div>
+
+    <div class="modal-body">
+      
+      <!-- KPI Summary Cards Grid -->
+      <section class="modal-section" style="margin-bottom: 2rem;">
+        <h3 style="color: #f8fafc; font-size: 1rem; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 1rem;">Core Key Performance Indicators (KPIs)</h3>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 1rem;">
+          <div style="background: #0f172a; border: 1px solid #334155; border-radius: 10px; padding: 1rem; text-align: center;">
+            <div style="font-size: 0.75rem; color: #94a3b8; text-transform: uppercase; margin-bottom: 0.3rem;">Total Customers</div>
+            <div style="font-size: 1.25rem; font-weight: 700; color: #38bdf8;">10,000</div>
+            <div style="font-size: 0.7rem; color: #64748b; margin-top: 0.2rem;">Active Customer Base</div>
+          </div>
+          <div style="background: #0f172a; border: 1px solid #334155; border-radius: 10px; padding: 1rem; text-align: center;">
+            <div style="font-size: 0.75rem; color: #94a3b8; text-transform: uppercase; margin-bottom: 0.3rem;">Churned Customers</div>
+            <div style="font-size: 1.25rem; font-weight: 700; color: #38bdf8;">2,037</div>
+            <div style="font-size: 0.7rem; color: #64748b; margin-top: 0.2rem;">Total Attrition Volume</div>
+          </div>
+          <div style="background: #0f172a; border: 1px solid #334155; border-radius: 10px; padding: 1rem; text-align: center;">
+            <div style="font-size: 0.75rem; color: #94a3b8; text-transform: uppercase; margin-bottom: 0.3rem;">Overall Churn Rate</div>
+            <div style="font-size: 1.25rem; font-weight: 700; color: #38bdf8;">20.37%</div>
+            <div style="font-size: 0.7rem; color: #64748b; margin-top: 0.2rem;">Primary Retention Health Metric</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Overview & Business Problem -->
+      <section class="modal-section">
+        <h3>Overview & Business Problem</h3>
+        <p>Customer acquisition cost in the banking sector is significantly higher than customer retention. Leadership identified an escalating attrition trend where profitable accounts were closing unexpectedly, resulting in an overall customer churn rate of <strong>20.37%</strong> (2,037 out of 10,000 customers).</p>
+      </section>
+
+      <!-- Objectives -->
+      <section class="modal-section">
+        <h3>Objectives</h3>
+        <ul>
+          <li>Calculate baseline churn rates and quantify financial losses across account balances and salaries.</li>
+          <li>Evaluate regional performance across France, Germany, and Spain to determine geographic attrition drivers.</li>
+          <li>Analyze product adoption thresholds to understand why customers holding multiple products are leaving.</li>
+          <li>Investigate demographic risk factors including age cohorts, gender distributions, and credit score tiers.</li>
+        </ul>
+      </section>
+
+      <!-- Dataset Description -->
+      <section class="modal-section">
+        <h3>Dataset Description</h3>
+        <p>The dataset comprises <strong>10,000 customer records</strong> capturing core banking attributes. Key fields include demographics (<code>Geography</code>, <code>Gender</code>, <code>Age</code>), banking profile (<code>CreditScore</code>, <code>Tenure</code>, <code>Balance</code>, <code>NumOfProducts</code>), engagement indicators (<code>HasCrCard</code>, <code>IsActiveMember</code>, <code>EstimatedSalary</code>), and the target variable <code>Exited</code>.</p>
+      </section>
+
+      <!-- Data Cleaning & SQL Workflows -->
+      <section class="modal-section">
+        <h3>Data Cleaning & SQL Workflows</h3>
+        <p>Utilized MySQL Workbench to stage data, standardize binary integer flags to categorical text, and execute exploratory aggregation queries:</p>
+        
+        <p style="margin-top: 0.75rem;"><strong>1. Schema Modification & Value Mapping:</strong></p>
+        <pre><code class="language-sql">-- Standardize binary flags to categorical text
+ALTER TABLE bank_churn
+MODIFY IsActiveMember VARCHAR(10),
+MODIFY HasCrCard VARCHAR(10);
+
+UPDATE bank_churn
+SET IsActiveMember = CASE WHEN IsActiveMember = '1' THEN 'Yes' ELSE 'No' END,
+    HasCrCard = CASE WHEN HasCrCard = '1' THEN 'Yes' ELSE 'No' END;</code></pre>
+
+        <p style="margin-top: 0.75rem;"><strong>2. Overall Churn Rate & Regional Analysis Queries:</strong></p>
+        <pre><code class="language-sql">-- Overall Churn Rate Calculation
+SELECT
+    COUNT(*) AS total_customers,
+    SUM(CASE WHEN Exited = 1 THEN 1 ELSE 0 END) AS churned_customers,
+    ROUND((SUM(CASE WHEN Exited = 1 THEN 1 ELSE 0 END) * 100.0) / COUNT(*), 2) AS churn_rate_pct
+FROM bank_churn;
+
+-- Regional Churn Breakdown
+SELECT
+    Geography,
+    COUNT(*) AS total_customers,
+    SUM(CASE WHEN Exited = 1 THEN 1 ELSE 0 END) AS churned_customers,
+    ROUND(AVG(Exited) * 100, 2) AS churn_rate_pct
+FROM bank_churn
+GROUP BY Geography
+ORDER BY churn_rate_pct DESC;</code></pre>
+      </section>
+
+      <!-- Power BI Dashboard -->
+      <section class="modal-section">
+      <h3>Power BI Dashboard Preview</h3>
+      <p>The dashboard tracks key regional performance metrics, customer churn distributions across age groups, balance brackets, and product adoption rates.</p>
+  
+       <!-- Fully Responsive Dashboard Image (No Cropping) -->
+      <div style="margin: 1.25rem 0; text-align: center; width: 100%;">
+      <img src="assets/img/bank_customer_churn_dashboard.png" alt="Bank Churn Dashboard Preview" style="width: 100%; height: auto; display: block; border-radius: 8px; border: 1px solid #334155;">
+      </div>
+      </section>
+
+      <!-- Key Findings -->
+       <section class="modal-section">
+        <h3>Key Findings</h3>
+      </section>
+      </section>
+        <ul>
+          <li><strong>Germany Outlier Risk:</strong> Despite equal customer volume to Spain (~2.5K), Germany accounts for 814 churned customers (<strong>32.44% churn rate</strong>), nearly double France and Spain.</li>
+          <li><strong>Product Over-Concentration Trap:</strong> Customers holding 3 products exhibit an alarming <strong>82.71% churn rate</strong>, while those with 4 products experience <strong>100% churn</strong>.</li>
+          <li><strong>Age Cohort Vulnerability:</strong> Attrition peaks sharply in the <strong>50–59 age bracket</strong>, reaching <strong>62.95%</strong> for females and <strong>49.55%</strong> for males.</li>
+          <li><strong>Activity Status Protection:</strong> Inactive members account for the vast majority of customer attrition, confirming that active engagement significantly mitigates risk .</li>
+        </ul>
+      </section>
+
+      <!-- Business Recommendations -->
+      <section class="modal-section">
+        <h3>Strategic Business Recommendations</h3>
+        <ul>
+          <li><strong>Deploy German Market Intervention:</strong> Investigate localized customer service quality, competitive product offerings, and fee structures in Germany to reverse the 32.4% attrition spike[cite: 6].</li>
+          <li><strong>Restructure Multi-Product Bundles:</strong> Audit advanced products (products 3 and 4) to resolve usability friction or unexpected fee disclosures leading to massive drop-offs[cite: 6].</li>
+          <li><strong>Senior Client Retention Taskforce:</strong> Establish dedicated relationship management for the high-risk 50–59 age demographic with personalized financial advisory services[cite: 6].</li>
+          <li><strong>Automated Re-engagement Triggers:</strong> Set up CRM alerts for customers who become inactive for >90 days to deliver targeted incentives before account closure[cite: 6].</li>
+        </ul>
+      </section>  
+
+      <!-- Footer Action -->
+      <div class="modal-footer" style="margin-top: 2rem; padding-top: 1rem; border-top: 1px solid #334155; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem;">
+        <span style="font-size: 0.85rem; color: #94a3b8;">Author: Jhernwin E. Flora | BS Mathematics[cite: 6]</span>
+        <a href="https://github.com/jhernwinflora/Bank-Churn-Analysis" target="_blank" rel="noopener noreferrer" class="btn btn-primary" style="display: inline-flex; align-items: center; gap: 0.5rem;">
+          <i class="fa-brands fa-github"></i> View GitHub Repository
+        </a>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+  <!-- Modal 3: E-Commerce Analysis -->
+<div class="modal" id="modal-ecommerce" role="dialog" aria-hidden="true">
+  <div class="modal-content" style="max-width: 1100px; max-height: 90vh; overflow-y: auto;">
+    <button class="close-modal">&times;</button>
+    
+    <!-- Modal Header -->
+    <div style="border-bottom: 1px solid #334155; padding-bottom: 1.25rem; margin-bottom: 1.5rem;">
+      <h2 style="color: #38bdf8; font-size: 1.5rem; font-weight: 700; margin-bottom: 0.4rem;">E-Commerce Sales & Customer Performance Analytics</h2>
+      <p style="color: #94a3b8; font-size: 0.9rem;">End-to-End Data Analytics Case Study</p>
+      
+      <!-- Tech Stack Badges -->
+      <div style="display: flex; gap: 0.5rem; margin-top: 1rem; flex-wrap: wrap;">
+        <span style="background: #0f172a; border: 1px solid #334155; color: #38bdf8; padding: 0.3rem 0.75rem; border-radius: 20px; font-size: 0.8rem; font-weight: 500;">🗄️ SQL (MySQL)</span>
+        <span style="background: #0f172a; border: 1px solid #334155; color: #38bdf8; padding: 0.3rem 0.75rem; border-radius: 20px; font-size: 0.8rem; font-weight: 500;">📈 Power BI Desktop</span>
+      </div>
+    </div>
+
+    <div class="modal-body" style="font-family: 'Inter', 'Segoe UI', system-ui, sans-serif; color: #cbd5e1; line-height: 1.7; font-size: 0.95rem;">
+      
+      <!-- KPI Summary Cards Grid -->
+      <section class="modal-section" style="margin-bottom: 2rem;">
+        <h3 style="color: #f8fafc; font-size: 1.1rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 1rem; border-bottom: 1px solid rgba(51, 65, 85, 0.6); padding-bottom: 0.3rem;">Core Key Performance Indicators (KPIs)</h3>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 1rem;">
+          <div style="background: #0f172a; border: 1px solid #334155; border-radius: 10px; padding: 1rem; text-align: center;">
+            <div style="font-size: 0.75rem; color: #94a3b8; text-transform: uppercase; margin-bottom: 0.3rem; font-weight: 600;">Realized Revenue</div>
+            <div style="font-size: 1.35rem; font-weight: 700; color: #38bdf8;">₹4.74bn</div>
+            <div style="font-size: 0.7rem; color: #64748b; margin-top: 0.2rem;">Delivered Orders Only</div>
+          </div>
+          <div style="background: #0f172a; border: 1px solid #334155; border-radius: 10px; padding: 1rem; text-align: center;">
+            <div style="font-size: 0.75rem; color: #94a3b8; text-transform: uppercase; margin-bottom: 0.3rem; font-weight: 600;">Total Orders</div>
+            <div style="font-size: 1.35rem; font-weight: 700; color: #38bdf8;">200K</div>
+            <div style="font-size: 0.7rem; color: #64748b; margin-top: 0.2rem;">Transaction Volume</div>
+          </div>
+          <div style="background: #0f172a; border: 1px solid #334155; border-radius: 10px; padding: 1rem; text-align: center;">
+            <div style="font-size: 0.75rem; color: #94a3b8; text-transform: uppercase; margin-bottom: 0.3rem; font-weight: 600;">Total Products</div>
+            <div style="font-size: 1.35rem; font-weight: 700; color: #38bdf8;">2K</div>
+            <div style="font-size: 0.7rem; color: #64748b; margin-top: 0.2rem;">Catalog Diversity</div>
+          </div>
+          <div style="background: #0f172a; border: 1px solid #334155; border-radius: 10px; padding: 1rem; text-align: center;">
+            <div style="font-size: 0.75rem; color: #94a3b8; text-transform: uppercase; margin-bottom: 0.3rem; font-weight: 600;">Total Customers</div>
+            <div style="font-size: 1.35rem; font-weight: 700; color: #38bdf8;">40K</div>
+            <div style="font-size: 0.7rem; color: #64748b; margin-top: 0.2rem;">Active User Base</div>
+          </div>
+          <div style="background: #0f172a; border: 1px solid #334155; border-radius: 10px; padding: 1rem; text-align: center;">
+            <div style="font-size: 0.75rem; color: #94a3b8; text-transform: uppercase; margin-bottom: 0.3rem; font-weight: 600;">Average Order Value</div>
+            <div style="font-size: 1.35rem; font-weight: 700; color: #38bdf8;">₹23.69K</div>
+            <div style="font-size: 0.7rem; color: #64748b; margin-top: 0.2rem;">AOV per Order</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Overview & Business Problem -->
+      <section class="modal-section">
+        <h3 style="color: #f8fafc; font-size: 1.1rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; margin-top: 1.75rem; margin-bottom: 0.75rem; border-bottom: 1px solid rgba(51, 65, 85, 0.6); padding-bottom: 0.3rem;">Overview & Business Problem</h3>
+        <p style="color: #cbd5e1; margin-bottom: 1rem;">E-commerce retail organizations generate massive transactional datasets daily, but struggle to transform raw order logs into actionable commercial strategies. This project delivers an end-to-end data analytics solution for an Indian e-commerce retailer tracking nationwide sales across multiple states to evaluate revenue realization, dissect customer tier profitability, audit product category performance, and analyze fulfillment efficiency.</p>
+      </section>
+
+      <!-- Objectives -->
+      <section class="modal-section">
+        <h3 style="color: #f8fafc; font-size: 1.1rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; margin-top: 1.75rem; margin-bottom: 0.75rem; border-bottom: 1px solid rgba(51, 65, 85, 0.6); padding-bottom: 0.3rem;">Objectives</h3>
+        <ul style="color: #cbd5e1; padding-left: 1.25rem; margin-bottom: 1rem;">
+          <li style="margin-bottom: 0.5rem;"><strong>Revenue Realization:</strong> Analyze gross potential revenue vs. realized revenue across order lifecycle stages (Delivered, Returned, Cancelled, Processing, Shipped).</li>
+          <li style="margin-bottom: 0.5rem;"><strong>Customer Segmentation:</strong> Evaluate how customer tiers (Platinum, Gold, Silver) and age demographics contribute to total sales volume.</li>
+            <li style="margin-bottom: 0.5rem;"><strong>Product & Discount Effectiveness:</strong> Identify top revenue-generating categories and brands while measuring how discount brackets influence purchasing behavior.</li>
+            <li style="margin-bottom: 0.5rem;"><strong>Logistics & Operations:</strong> Audit geographic sales distribution and order delivery speed tiers.</li>
+        </ul>
+      </section>
+
+      <!-- Dataset Description -->
+      <section class="modal-section">
+        <h3 style="color: #f8fafc; font-size: 1.1rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; margin-top: 1.75rem; margin-bottom: 0.75rem; border-bottom: 1px solid rgba(51, 65, 85, 0.6); padding-bottom: 0.3rem;">Dataset Description</h3>
+        <p style="color: #cbd5e1; margin-bottom: 1rem;">The analysis utilizes three normalized CSV datasets:</p>
+        <ul style="color: #cbd5e1; padding-left: 1.25rem; margin-bottom: 1rem;">
+          <li style="margin-bottom: 0.5rem;"><code>customers.csv</code> (40,000 rows): Customer demographics, registration dates, tiers, and lifetime spend.</li>
+          <li style="margin-bottom: 0.5rem;"><code>products.csv</code> (2,000 rows): Product catalog details, original prices, selling prices, discount percentages, stock quantities, and ratings.</li>
+          <li style="margin-bottom: 0.5rem;"><code>sales.csv</code> (250,000 rows): Transaction-level logs capturing order dates, delivery dates, quantities, unit prices, shipping costs, coupon details, payment modes, and order statuses.</li>
+        </ul>
+      </section>
+
+      <!-- Data Cleaning & SQL Workflows -->
+      <section class="modal-section">
+        <h3 style="color: #f8fafc; font-size: 1.1rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; margin-top: 1.75rem; margin-bottom: 0.75rem; border-bottom: 1px solid rgba(51, 65, 85, 0.6); padding-bottom: 0.3rem;">Data Cleaning & SQL Workflows</h3>
+        <p style="color: #cbd5e1; margin-bottom: 1rem;">Utilized MySQL Workbench to perform staging ingestion, schema alteration, date sanitization, and complex aggregation queries:</p>
+        
+        <p style="margin-top: 0.75rem; color: #e2e8f0; font-weight: 600;">1. Schema Modification & Date Formatting:</p>
+        <pre style="background: #090d16; border: 1px solid #334155; border-radius: 8px; padding: 1.25rem; margin: 1rem 0; overflow-x: auto;"><code class="language-sql" style="font-family: 'Fira Code', monospace; font-size: 0.85rem; color: #38bdf8;">ALTER TABLE customers
+MODIFY COLUMN Date_of_Birth DATE,
+MODIFY COLUMN Registration_Date DATE;
+
+UPDATE sales
+SET Order_Date = STR_TO_DATE(Order_Date, "%m/%d/%Y"),
+    Delivery_Date = STR_TO_DATE(Delivery_Date, "%m/%d/%Y");
+
+ALTER TABLE sales
+MODIFY COLUMN Order_Date DATE,
+MODIFY COLUMN Delivery_Date DATE;</code></pre>
+
+        <p style="margin-top: 0.75rem; color: #e2e8f0; font-weight: 600;">2. Executive Overview & Lifecycle Revenue Realization Query:</p>
+        <pre style="background: #090d16; border: 1px solid #334155; border-radius: 8px; padding: 1.25rem; margin: 1rem 0; overflow-x: auto;"><code class="language-sql" style="font-family: 'Fira Code', monospace; font-size: 0.85rem; color: #38bdf8;">SELECT 
+    SUM(CASE WHEN Order_Status = 'Delivered' THEN Total_Amount ELSE 0 END) AS total_sales,
+    SUM(CASE WHEN Order_Status = 'Returned' THEN Total_Amount ELSE 0 END) AS refunded_sales,
+    SUM(CASE WHEN Order_Status = 'Cancelled' THEN Total_Amount ELSE 0 END) AS lost_sales,
+    SUM(CASE WHEN Order_Status = 'Processing' THEN Total_Amount ELSE 0 END) AS processing_sales,
+    SUM(CASE WHEN Order_Status = 'Shipped' THEN Total_Amount ELSE 0 END) AS pending_sales,
+    SUM(Total_Amount) AS gross_potential_sales
+FROM sales;</code></pre>
+      </section>
+
+      <!-- Power BI Dashboards Preview -->
+      <section class="modal-section">
+        <h3 style="color: #f8fafc; font-size: 1.1rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; margin-top: 1.75rem; margin-bottom: 0.75rem; border-bottom: 1px solid rgba(51, 65, 85, 0.6); padding-bottom: 0.3rem;">Power BI Dashboards Preview</h3>
+        <p style="color: #cbd5e1; margin-bottom: 1rem;">Explore the multi-page executive report covering regional maps, category distributions, and fulfillment timelines:</p>
+        
+        <!-- Dashboard Image 1: Executive Overview -->
+        <div style="margin: 1.25rem 0; text-align: center; width: 100%;">
+            <p style="font-size: 0.85rem; color: #94a3b8; margin-bottom: 0.4rem; text-align: left; font-weight: 600;">📄 Executive Overview Page</p>
+            <img src="assets/img/e_commerce_dashboard_p1.png" alt="E-Commerce Executive Overview Preview" style="width: 100%; height: auto; display: block; border-radius: 8px; border: 1px solid #334155;">
+        </div>
+
+        <!-- Dashboard Image 2: Customer & Revenue Insights -->
+        <div style="margin: 1.75rem 0 1.25rem 0; text-align: center; width: 100%;">
+            <p style="font-size: 0.85rem; color: #94a3b8; margin-bottom: 0.4rem; text-align: left; font-weight: 600;">📄 Customer & Revenue Insights Page</p>
+            <img src="assets/img/e_commerce_dashboard_p2.png" alt="Customer & Revenue Insights Preview" style="width: 100%; height: auto; display: block; border-radius: 8px; border: 1px solid #334155;">
+        </div>
+
+        <!-- Dashboard Image 3: Inventory & Fulfillment -->
+        <div style="margin: 1.75rem 0 1.25rem 0; text-align: center; width: 100%;">
+            <p style="font-size: 0.85rem; color: #94a3b8; margin-bottom: 0.4rem; text-align: left; font-weight: 600;">📄 Inventory & Fulfillment Page</p>
+            <img src="assets/img/e_commerce_dashboard_p3.png" alt="Inventory & Fulfillment Preview" style="width: 100%; height: auto; display: block; border-radius: 8px; border: 1px solid #334155;">
+        </div>
+      </section>
+
+      <!-- Key Findings -->
+      <section class="modal-section">
+        <h3 style="color: #f8fafc; font-size: 1.1rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; margin-top: 1.75rem; margin-bottom: 0.75rem; border-bottom: 1px solid rgba(51, 65, 85, 0.6); padding-bottom: 0.3rem;">Key Findings & Insights</h3>
+        <ul style="color: #cbd5e1; padding-left: 1.25rem; margin-bottom: 1rem;">
+          <li style="margin-bottom: 0.5rem;"><strong>Revenue Realization & Leakage:</strong> Realized revenue stands at ₹4.74bn across delivered orders, while non-realized revenue highlights friction: ₹587M Pending, ₹300M Refunded, and ₹302M Lost revenue.</li>
+          <li style="margin-bottom: 0.5rem;"><strong>Electronics Monopoly:</strong> Electronics leads all categories by a massive margin, driving ₹3.44bn (72.62%) of total revenue.</li>
+          <li style="margin-bottom: 0.5rem;"><strong>Customer Tier Dominance:</strong> Platinum tier customers generate the overwhelming majority of revenue, heavily outperforming Gold and Silver tiers across standard payment modes.</li>
+          <li style="margin-bottom: 0.5rem;"><strong>Fulfillment & Discount Dynamics:</strong> Delivery speeds are split evenly across thirds (Fast 33.46%, Standard 33.39%, Slow 33.16%), while the 26%–50% discount bracket drives the highest revenue (₹2.3bn).</li>
+        </ul>
+      </section>
+
+      <!-- Business Recommendations -->
+      <section class="modal-section">
+        <h3 style="color: #f8fafc; font-size: 1.1rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; margin-top: 1.75rem; margin-bottom: 0.75rem; border-bottom: 1px solid rgba(51, 65, 85, 0.6); padding-bottom: 0.3rem;">Strategic Business Recommendations</h3>
+        <ul style="color: #cbd5e1; padding-left: 1.25rem; margin-bottom: 1rem;">
+          <li style="margin-bottom: 0.5rem;"><strong>Mitigate Revenue Leakage:</strong> Address ₹587M in Pending and ₹302M in Lost revenue by optimizing checkout verification, reducing gateway drop-offs, and proactively communicating with customers.</li>
+          <li style="margin-bottom: 0.5rem;"><strong>Optimize High-Value Fulfillment:</strong> Streamline warehousing in top demand hubs (UP, Haryana, Rajasthan) to eliminate bottlenecks causing 33.16% of deliveries to take 6+ days.</li>
+          <li style="margin-bottom: 0.5rem;"><strong>Refine Discount Strategies:</strong> While the 26–50% bracket drives top-line growth (₹2.3bn), introduce targeted cross-selling and loyalty perks for Platinum members to protect profit margins from heavy markdowns .</li>
+          <li style="margin-bottom: 0.5rem;"><strong>Diversify Category Growth:</strong> Cross-promote high-margin accessories in underperforming categories (Home, Fashion, Beauty) to reduce over-reliance on consumer electronics.</li>
+        </ul>
+      </section>
+
+      <!-- Footer Action -->
+      <div class="modal-footer" style="margin-top: 2rem; padding-top: 1rem; border-top: 1px solid #334155; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem;">
+        <span style="font-size: 0.85rem; color: #94a3b8;">Author: Jhernwin E. Flora | BS Mathematics</span>
+        <a href="https://github.com/jhernwinflora/E-Commerce-Analysis" target="_blank" rel="noopener noreferrer" class="btn btn-primary" style="display: inline-flex; align-items: center; gap: 0.5rem; background: #0284c7; color: #fff; padding: 0.6rem 1.25rem; border-radius: 6px; text-decoration: none; font-weight: 500;">
+          <i class="fa-brands fa-github"></i> View GitHub Repository
+        </a>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
